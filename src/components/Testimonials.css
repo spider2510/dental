@@ -1,0 +1,47 @@
+/* Overall container */
+#testimonials {
+  padding: 20px 0; /* Adjust padding to reduce overall section height */
+}
+
+/* Container for each testimonial */
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Media container */
+.testimonial-media {
+  width: 100%;
+  max-width: 500px; /* Keep width unchanged */
+  height: 280px; /* Fixed height, adjust as needed */
+  margin-bottom: 15px; /* Adjust margin as needed */
+  position: relative;
+}
+
+/* Video and Image styling */
+.testimonial-video,
+.testimonial-image img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  object-fit: cover; /* Ensures video/image maintains aspect ratio */
+}
+
+/* Testimonial content */
+.testimonial-content {
+  color: #555;
+  text-align: center;
+  margin-top: 15px; /* Reduced margin */
+  max-width: 500px; /* Ensure content doesn't stretch too wide */
+}
+
+/* Meta information */
+.testimonial-meta {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 40px;
+}
