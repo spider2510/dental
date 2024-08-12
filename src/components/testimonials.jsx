@@ -50,9 +50,9 @@ export const Testimonials = (props) => {
                       </div>
                     )}
                   </div>
-                  <div className="testimonial-content">
+                  <div style={{"color": "white"}} className="testimonial-content">
                     <p>{d.text}</p>
-                    <div className="testimonial-meta">- {d.name}</div>
+                    <div style={{"color": "white"}} className="testimonial-meta">- {d.name}</div>
                   </div>
                 </motion.div>
               ))
