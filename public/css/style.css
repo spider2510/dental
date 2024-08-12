@@ -43,13 +43,13 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #608dfd;
+  color: #071630;
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #608dfd;
+  color: #071630;
 }
 ul,
 ol {
@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #162847 0%, #071630 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #162847 0%, #071630 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -135,10 +135,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: #071630;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #071630;
 }
 .section-title {
   margin-bottom: 70px;
@@ -153,7 +153,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #162847 0%, #071630 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -168,7 +168,7 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background-image: linear-gradient(to right, #162847 0%, #071630 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -185,7 +185,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #071630;
 }
 .btn:active,
 .btn.active {
@@ -253,7 +253,7 @@ a:focus,
 }
 .intro h1 span {
   font-weight: 800;
-  color: #5ca9fb;
+  color: #162847;
 }
 .intro p {
   color: #fff;
@@ -285,7 +285,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #162847 0%, #071630 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
@@ -308,7 +308,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #162847 0%, #071630 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -323,7 +323,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #162847;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -342,7 +342,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #162847 0%, #071630 100%);
   color: #fff;
 }
 #services .service-desc {
@@ -366,7 +366,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #162847 0%, #071630 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -402,8 +402,8 @@ header .intro-text {
   color: #fff;
   background: linear-gradient(
     to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
+    #162847 0%,
+    #071630 100%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -434,7 +434,7 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #162847 0%, #071630 100%);
 }
 
 #testimonials i {
@@ -464,7 +464,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #162847 0%, #071630 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -584,7 +584,7 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: #071630;
   background: #fff;
 }
 /* Footer Section*/
@@ -597,10 +597,10 @@ label {
   font-size: 14px;
 }
 #footer a {
-  color: #608dfd;
+  color: #071630;
 }
 #footer a:hover {
-  border-bottom: 2px solid #608dfd;
+  border-bottom: 2px solid #071630;
 }
 
 .footer-links {
