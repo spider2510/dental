@@ -28,8 +28,8 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="" href="#page-top">
-          <img  className="desktop-logo" src= {Logo} alt="Rothley Lodge" style={{ height: '40px', width: 'auto' }} />
-          <img src={Logo1} alt="Rothley Lodge" style={{ height: '40px', width: 'auto' }} />
+          <img   src= {Logo} alt="Rothley Lodge" style={{ height: '40px', width: 'auto' }} />
+          <img className="desktop-logo" src={Logo1} alt="Rothley Lodge" style={{ height: '30px', width: 'auto' }} />
           </a>{" "}
         </div>
 
@@ -47,7 +47,7 @@ export const Navigation = (props) => {
               { href: "#services", text: "Services" },
               { href: "#portfolio", text: "Gallery" },
               { href: "#testimonials", text: "Testimonials" },
-              { href: "#pricing", text: "Pricing" },
+              { href: "#qna", text: "QNA" },
               { href: "#contact", text: "Contact" },
             ].map((item, index) => (
               <motion.li

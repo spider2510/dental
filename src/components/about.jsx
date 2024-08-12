@@ -11,7 +11,7 @@ export const About = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {/* Before-After Slider */}
-            <div className="before-after-slider">
+            <div className="before-after-slider-about">
               <ImageComparisonSlider
                 image1={beforeImage}
                 image2={afterImage}
