@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import backgroundVideo from '../assets/2.mp4';
 
 export const Header = (props) => {
-  const [showForm, setShowForm] = useState(false);
+  const [showForm, setShowForm] = useState(true);
 
   const handleFormToggle = () => {
     setShowForm(!showForm);
