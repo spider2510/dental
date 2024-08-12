@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Logo1 from '../assets/RothleyLodgeLogoArtwork_Reverse1.png';
 import Logo from '../assets/RothleyLodgeLogoArtwork_Reverse.png';
-
+import Logo2 from "../assets/logo.png"
 
 export const Navigation = (props) => {
   return (
@@ -13,7 +13,7 @@ export const Navigation = (props) => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="container">
+      <div className="container1" style={{margin:"15px", paddingRight:"5%",paddingLeft:"5%"}}>
         <div className="navbar-header">
           <button
             type="button"
@@ -29,7 +29,7 @@ export const Navigation = (props) => {
           </button>
           <a className="" href="#page-top">
           <img   src= {Logo} alt="Rothley Lodge" style={{ height: '40px', width: 'auto' }} />
-          <img className="desktop-logo" src={Logo1} alt="Rothley Lodge" style={{ height: '30px', width: 'auto' }} />
+          <img className="desktop-logo" src={Logo1} alt="Rothley Lodge" style={{ height: '40px', width: 'auto' }} />
           </a>{" "}
         </div>
 

@@ -4,7 +4,7 @@ import backgroundVideo from '../assets/2.mp4';
 import './Header.css'; // Make sure to create this CSS file
 
 export const Header = (props) => {
-  const [showForm, setShowForm] = useState(false);
+  const [showForm, setShowForm] = useState(true);
 
   const handleFormToggle = () => {
     setShowForm(!showForm);
