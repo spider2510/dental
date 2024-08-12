@@ -1,5 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Logo1 from '../assets/RothleyLodgeLogoArtwork_Reverse1.png';
+import Logo from '../assets/RothleyLodgeLogoArtwork_Reverse.png';
+
 
 export const Navigation = (props) => {
   return (
@@ -24,12 +27,9 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="page-scroll" href="#page-top">
-            {/* Invisalign */}
-            <div>
-              <img src={"img/portfolio/logo1.jpg"} alt="logo" style={{ maxHeight: '60px', width: 'auto' }} />
-
-            </div>
+          <a className="" href="#page-top">
+          <img  className="desktop-logo" src= {Logo} alt="Rothley Lodge" style={{ height: '40px', width: 'auto' }} />
+          <img src={Logo1} alt="Rothley Lodge" style={{ height: '40px', width: 'auto' }} />
           </a>{" "}
         </div>
 
