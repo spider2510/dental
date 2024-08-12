@@ -16,24 +16,27 @@ export const Gallery = (props) => {
           </p> */}
         </div>
         <div
-          style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(3, 1fr)',
-            gap: '10px',
-          }}
+          // style={{
+          //   display: 'grid',
+          //   gridTemplateColumns: 'repeat(3, 1fr)',
+          //   gap: '1px',
+          // }}
+          className="gallery-container"
         >
           {props.data.map((image, index) => (
             <div
               key={index}
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                padding: '10px',
-              }}
+              // style={{
+              //   display: 'flex',
+              //   flexDirection: 'column',
+              //   alignItems: 'center',
+              //   padding: '10px',
+              // }}
+              className="gallery-item"
             >
               <div className="before-after-slider">
                 <ImageComparisonSlider
+                
                 image1={image.smallImage}
                 sliderColor="#000" // Slider color
                 handleColor="#000" // Handle color
@@ -51,7 +54,7 @@ export const Gallery = (props) => {
                 // handleSize={20} // Handle size
                 />
               </div>
-              <p style={{ fontSize: '16px', fontWeight: 'bold' }}>{image.title}</p>
+              <p style={{ fontSize: '16px', fontWeight: 'bold',color:"white" }}>{image.title}</p>
             </div>
           ))}
         </div>
