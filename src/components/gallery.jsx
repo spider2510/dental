@@ -6,7 +6,7 @@ const afterImageURL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBQ
 
 export const Gallery = (props) => {
   return (
-    <div style={{ backgroundColor: '#0C0C0C' }} id="portfolio" className="text-center">
+    <div style={{ backgroundColor: '#071630' }} id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
           <h2 style={{ color: 'white' }}>Gallery</h2>
@@ -15,7 +15,7 @@ export const Gallery = (props) => {
             dapibus leonec.
           </p> */}
         </div>
-        <div
+        {/* <div
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(3, 1fr)',
@@ -54,25 +54,31 @@ export const Gallery = (props) => {
               <p style={{ fontSize: '16px', fontWeight: 'bold' }}>{image.title}</p>
             </div>
           ))}
-        </div>
-        {/* <div className="row">
+        </div> */}
+    
+        <div className="row">
           <div className="portfolio-items">
             {props.data
               ? props.data.map((d, i) => (
-                  <div
-                    key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
-                  >
-                    <Image
-                      title={d.title}
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                    />
-                  </div>
-                ))
+                <div
+                  key={`${d.title}-${i}`}
+                  className="col-sm-6 col-md-4 col-lg-4"
+                  style={{ padding: '20', height: "30%"}}
+                >
+                  <ImageComparisonSlider
+                    image1={d.smallImage}
+                    sliderColor="#071630" // Slider color
+                    handleColor="#071630" // Handle color
+                    // sliderWidth={2} // Slider width
+                    // handleSize={0} // Handle size
+                    image2={afterImageURL}
+                    // imageHeight={111}
+                  />
+                </div>
+              ))
               : "Loading..."}
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
