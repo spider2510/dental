@@ -24,8 +24,12 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-              Invisalign
+          <a className="page-scroll" href="#page-top">
+            {/* Invisalign */}
+            <div>
+              <img src={"img/portfolio/logo1.jpg"} alt="logo" style={{ maxHeight: '60px', width: 'auto' }} />
+
+            </div>
           </a>{" "}
         </div>
 
