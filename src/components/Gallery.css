@@ -1,0 +1,58 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-container {
+  padding: 0 10px;
+}
+
+.gallery-item {
+  max-width: 100%;
+}
+
+.before-after-slider-about {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.image-comparison-container {
+  position: relative;
+  padding-top: 75%; /* This sets a 4:3 aspect ratio. Adjust as needed. */
+  overflow: hidden;
+}
+
+.image-comparison-container > div {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.image-comparison-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .before-after-slider-about {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .before-after-slider-about {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .before-after-slider-about {
+    max-width: 250px;
+  }
+}

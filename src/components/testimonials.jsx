@@ -17,8 +17,8 @@ export const Testimonials = (props) => {
   return (
     <div id="testimonials" className="w-100">
       <div className="container-fluid">
-        <div className="text-center">
-          <h2 style={{"color": "white"}}>What our clients say</h2>
+        <div className="section-title text-center">
+          <h2 style={{color:"white"}}>What our clients say</h2>
         </div>
         <Carousel
           showArrows={true}
